@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ecommerce Bazaar Backend
 
 Powering a robust and scalable online marketplace
@@ -18,3 +19,7 @@ This repository contains the backend infrastructure for Ecommerce Bazaar, a vers
 ## Purpose
 
 Designed with scalability and performance in mind, this backend solution is suitable for small businesses to large-scale marketplaces. Contributions and feedback are welcome!
+=======
+# Ecommerce-Bazaar-Backend
+Ecommerce Bazaar Backend: Powering a robust and scalable online marketplace
+>>>>>>> main
