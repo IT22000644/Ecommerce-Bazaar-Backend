@@ -1,0 +1,45 @@
+{
+  "name": "bazaar_backend",
+  "version": "1.0.0",
+  "description": "Backend End for a scalable E-commerce marketplace",
+  "main": "src/app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "babel src -d dist",
+    "start": "nodemon --exec babel-node  -- src/app.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manilkanav/Ecommerce-Bazaar-Backend.git"
+  },
+  "keywords": [
+    "E-commerce",
+    "REST-API"
+  ],
+  "author": "Manilka Dikkumbura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manilkanav/Ecommerce-Bazaar-Backend/issues"
+  },
+  "homepage": "https://github.com/manilkanav/Ecommerce-Bazaar-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.2",
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.8.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
